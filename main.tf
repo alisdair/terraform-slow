@@ -28,3 +28,8 @@ resource "null_resource" "print_junk_f" {
     command = "find /"
   }
 }
+resource "null_resource" "print_junk_g" {
+  provisioner "local-exec" {
+    command = "find /"
+  }
+}
