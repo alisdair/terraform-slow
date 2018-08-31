@@ -13,23 +13,3 @@ resource "null_resource" "print_junk_c" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_d" {
-  provisioner "local-exec" {
-    command = "find /"
-  }
-}
-resource "null_resource" "print_junk_e" {
-  provisioner "local-exec" {
-    command = "find /"
-  }
-}
-resource "null_resource" "print_junk_f" {
-  provisioner "local-exec" {
-    command = "find /"
-  }
-}
-resource "null_resource" "print_junk_g" {
-  provisioner "local-exec" {
-    command = "find /"
-  }
-}
